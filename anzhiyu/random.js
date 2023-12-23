@@ -1,4 +1,4 @@
-var posts=["2023/11/27/MyLoverOpen/","2023/11/27/Mybatis/","2023/12/02/hello-world/","2023/11/27/SpringBootWeb入门/","2023/11/15/数据库-MySQL/","2023/12/07/Mysql/"];function toRandomPost(){
+var posts=["2023/11/27/MyLoverOpen/","2023/11/27/Mybatis/","2023/12/02/hello-world/","2023/11/27/SpringBootWeb入门/","2023/11/15/数据库-MySQL/","2023/12/07/Mysql/","2023/12/23/My-New-Post/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
