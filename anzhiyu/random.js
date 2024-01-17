@@ -1,4 +1,4 @@
-var posts=["2023/11/27/MyLoverOpen/","2023/11/27/Mybatis/","2023/12/25/Mybatis-plus/","2024/01/09/Redis入门/","2023/12/23/Redis快速入门/","2023/12/02/hello-world/","2023/12/07/Mysql/","2023/11/27/SpringBootWeb入门/","2024/01/12/请求和响应/","2023/11/15/数据库-MySQL/"];function toRandomPost(){
+var posts=["2023/11/27/MyLoverOpen/","2023/12/25/Mybatis-plus/","2023/11/27/Mybatis/","2024/01/09/Redis入门/","2023/12/02/hello-world/","2024/01/17/文件上传-oss存储/","2023/11/27/SpringBootWeb入门/","2024/01/12/请求和响应/","2023/12/07/Mysql/","2023/11/15/数据库-MySQL/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
