@@ -1,4 +1,4 @@
-var posts=["2023/11/27/MyLoverOpen/","2024/02/07/JWT令牌/","2023/12/25/Mybatis-plus/","2023/11/27/Mybatis/","2023/12/07/Mysql/","2024/01/09/Redis入门/","2023/11/27/SpringBootWeb入门/","2024/03/25/Spring/","2024/03/25/SpringMVC/","2024/03/22/hello-world/","2024/03/12/spring原理/","2024/04/04/SpringCloud/","2023/12/17/数据库-MySQL/","2024/01/17/文件上传-oss存储-1/","2024/01/17/文件上传-oss存储/","2024/01/12/请求和响应/"];function toRandomPost(){
+var posts=["2024/02/07/JWT令牌/","2023/11/27/MyLoverOpen/","2023/12/25/Mybatis-plus/","2023/11/27/Mybatis/","2024/01/09/Redis入门/","2023/12/07/Mysql/","2024/03/25/Spring/","2024/03/25/SpringMVC/","2023/11/27/SpringBootWeb入门/","2024/04/18/Stream/","2024/03/22/hello-world/","2024/03/12/spring原理/","2024/04/04/SpringCloud/","2024/01/17/文件上传-oss存储-1/","2023/12/17/数据库-MySQL/","2024/01/17/文件上传-oss存储/","2024/01/12/请求和响应/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
